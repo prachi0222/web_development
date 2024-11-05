@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <form>
+        <label for="name1">Name:</label>
+        <input type="text" name="name1" id="name1"><br><br>
+
+        <label for="email1">Email:</label>
+        <input type="email" name="email1" id="email1"><br><br>
+        
+        <label for="ph1">Phone No:</label>
+        <input type="tel" name="ph1" id="ph1"><br><br>
+
+        <label for="resume">Resume:</label>
+        <input type="file" value="choose File" name="resume" id="resume"><br><br>
+
+        <label for="num">Experience(Year):</label>
+        <input type="number" name="num" id="num" max="50" min="0"><br><br>
+        <fieldset><legend>Skills</legend>
+            <label for="check">HTML</label>
+           <input type="checkbox" id="check" name="check"><br>
+           <label for="check2">CSS</label>
+           <input type="checkbox" id="check2" name="check2"><br>
+           <label for="check3">JAVASCRIPT</label>
+           <input type="checkbox" id="check3" name="check3"><br>
+        </fieldset>
+        <br><br>
+        <label for="heigh">Higest Education</label>
+        <select name="heigh" id="heigh">
+            <option value="High school">High School</option>
+            <option value="intermediate">Intermediate</option>
+        </select><br><br>
+        <fieldset><legend>Availability</legend><br>
+        <label for="avll">Full-time</label>
+        <input type="radio" name="avl1" id="avll"><br>
+        <label for="avl2">Part-time</label>
+        <input type="radio" name="avl1" id="avl2">
+        </fieldset>
+        <br><br>
+        <label for="additional">Additional comments</label><br>
+        <textarea name="additional" id="additional" rows="10" cols="50"></textarea><br>
+
+        <input type="button" value="Submit Application">
+    </form>
+</body>
+</html>

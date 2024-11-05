@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: bisque;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            
+            background-color: aquamarine;
+            width:var(--custom-width);
+            height: 430px;
+            border: 1px solid var(--primary-color);
+            margin: 5px;
+            padding: 5px;
+             /* box-shadow: -10px -15px var(--primary-color);  */
+            /* box-shadow:10px 15px 60px brown ; */
+            /* box-shadow: 10px 15px 5px 50px brown; */
+            /* box-shadow: inset 15px 15px brown; */
+            /* box-shadow: 10px 15px red,15px 8px green; */
+        }
+        #head1{
+            /* text-shadow: 2px 3px 5px rebeccapurple; */
+            /* text-shadow: yellow 12px 13px  2px; */
+            /* text-shadow: white 12px 13px; */
+            /* text-shadow: 12px 13px;*/
+
+            text-shadow: 1px 2px red,2px 3px yellow,3px 4px green;
+        } 
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="code help.png" alt="">
+            <h2 id="head1">welcome to codehelp</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus nam fugit nobis tempora dolorem. Laborum sed deserunt unde quidem vitae architecto, ducimus odio eaque dignissimos quos officia ut molestias, rem doloremque cumque doloribus possimus. Suscipit </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 210vh;
+            height: 95vh;
+            background-color: aliceblue;
+            border: 2px solid black;
+        }
+        .box{
+            width: 350px;
+            height: 80px;
+            background-color: blue;
+            border-radius: 10px;
+            margin: 10px;
+            border: 2px solid yellow;
+            position: relative;
+            animation-name: rightMovement;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+            animation-delay: 2s;
+        }
+        @keyframes rightMovement {
+            from{
+               top: 0;
+               left: 0;
+            }
+            to{
+                top: 0;
+                left: 1200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="box">
+
+         </div>
+    </div>
+</body>
+</html>

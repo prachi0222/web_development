@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Complex Form</h2>
+    <form >
+        <fieldset><legend>Personal Information</legend>
+            <label for="nm">Name</label>
+        <input type="text" name="nm" id="nm">
+        <label for="em">Email</label>
+        <input type="email" name="em" id="em">
+        <label for="ph">Phone</label>
+        <input type="tel" name="ph" id="ph">
+        <label for="dt">Date of Birth</label>
+        <input type="date" name="dt" id="dt">
+        <label for="">Gender </label>
+        <label for="mm">Male</label>
+        <input type="radio" name="G" id="mm">
+        <label for="fm">Female</label>
+        <input type="radio" name="G" id="fm">
+        <label for="county">Country</label>
+        <select name="county" id="county">
+            <option value="United state">United State</option>
+            <option value="India">India</option>
+            <option value="pakistan">Pakistan</option>
+        </select>
+        </fieldset>
+
+        <fieldset>
+         <legend>
+            <label for="address">Address Street</label>
+            <input type="text" name="address" id="address">
+
+            <label for="state">State</label>
+            <input type="text" name="state" id="state">
+
+            <label for="z">Zip Code</label>
+            <input type="text" name="z" id="z">
+         </legend>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information</legend>
+            <label for="com">Comments</label>
+            <textarea name="com" id="com" rows="5" cols="50"></textarea>
+            <label for="chk">I agree to the terms of service</label>
+            <input type="checkbox" name="chk" id="chk">
+        </fieldset>
+        <input type="button" value="Submit">
+    </form>
+</body>
+</html>
